@@ -1,0 +1,357 @@
+/*
+    Document   : common
+    Created on : 2012-2-13, 15:53:13
+    Author     : kete
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.conditionsDiv{
+    width: 100%;
+    color: #454545;
+    padding: 1px;
+    height: auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    float: left;
+    text-align: left;
+}
+
+
+#navigationBar {
+    color: #51B400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    width: 100%;
+
+}
+
+.form_content {
+
+    background-repeat: no-repeat;
+    background-position: 1px;
+    margin: 0px;
+    float: left;
+    width: 100%;
+    height: 85%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+    padding: 0px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: none;
+    border-right-style: none;
+    /*    border-bottom-style: dashed;*/
+    border-left-style: none;
+    border-top-color: #A8B6BF;
+    border-right-color: #A8B6BF;
+    border-bottom-color: #A8B6BF;
+    border-left-color: #A8B6BF;
+    font-size: 12px;
+    color: #FF6D05;
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    text-align: left;
+}
+
+.conditionDiv {
+    color: #595959;
+    /*    width: 48%;*/
+    float: left;
+    height: auto;
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: #DFDFDF;
+    margin: 0px;
+    padding-top: 3px;
+    padding-right: 0px;
+    padding-bottom: 3px;
+    padding-left: 1%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+}
+.conditionDiv label[class="displayLabel"] {
+    float: left;
+    width: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    font-weight: bold;
+    color: #475663;
+    text-align: right;
+}
+
+.conditionDiv input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    height: 20px;
+    border: 1px groove #CCC;
+    background-color: #FAFCFD;
+    padding: 0px;
+    margin: 0px;
+    line-height: 20px;
+    font-weight: lighter;
+    color: #333;
+}
+
+
+.conditionDiv input[readonly="readonly"]{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    height: 20px;
+    border: 0px groove #CCC;
+    background-color: #fbfbfb;
+    padding: 0px;
+    margin: 0px;
+    line-height: 20px;
+    text-decoration: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: none;
+    border-top-style: none;
+}
+.requriedDiv{
+
+    color: #f10a0a;
+    width: 10px;
+
+
+}
+
+.conditionFileDiv {
+    color: #595959;
+    width: 100%;
+    float: left;
+    height: auto;
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: #DFDFDF;
+    margin: 0px;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+}
+
+.conditionFileDiv input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    height: 22px;
+    border: 1px groove #CCC;
+    background-color: #FAFCFD;
+    padding: 0px;
+    margin: 0px;
+    line-height: 22px;
+    font-weight: lighter;
+    color: #333;
+    width: auto;
+}
+
+.conditionDiv select {
+
+    border: 1px solid;
+    white-space: pre;
+    color: black;
+    background-color: white;
+    cursor: default;
+}
+
+.conditionFileDiv a{
+
+    color: #fa0505;
+    text-decoration: underline;
+}
+
+.actionDiv {
+    color: #595959;
+    width: 100%;
+    height: auto;
+    border-bottom-width: 0px;
+    border-bottom-style: none;
+    border-bottom-color: #DFDFDF;
+    padding-top: 10px;
+    padding-right: 0px;
+    /*    margin-top:35%;*/
+    padding-bottom: 10px;
+    padding-left: 3%;
+    text-align: center;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    margin: 0px;
+    vertical-align: middle;
+    float: left;
+
+}
+
+.actionDiv input{
+    margin: 0px;
+    height: 35px;
+    width: 100px;
+    background-image: url(../images/vmi_button_l.jpg);
+    background-repeat: repeat-x;
+    background-position: 0px 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #04110a;
+    font-size: 12px;
+    font-weight: bold;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px;
+    background-color: white;
+    font-variant: normal;
+}
+
+#footerDiv {
+    float: left;
+    height: 25px;
+    width: 100%;
+    background-color: #E9EEF6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: center;
+    border: 1px solid #DAD7CB;
+    padding: 0px;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+#content{
+
+    margin: 0px;
+    float: left;
+    width: 100%;
+
+    height: auto;
+
+}
+
+.tableDiv {
+    margin: 0px;
+    float: left;
+    width: 100%;
+    height: 80%;
+    padding-top: 3px;
+    padding-right: 0px;
+    padding-bottom: 1px;
+    padding-left: 0px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.tableDiv input[class="buttonDiv"] {
+    margin: 0px;
+    height: 20px;
+    width: auto;
+    background-image: url(../images/vmi_btnmain_b.gif);
+    background-repeat: repeat-x;
+    background-position: 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    color: #FF954B;
+    font-size: 12px;
+    font-weight: lighter;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    float: left;
+    padding-top: 0px;
+    padding-right: 3px;
+    padding-bottom: 0px;
+    padding-left: 3px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.inputTable{
+
+    font-style: normal;
+    font-weight: lighter;
+    border: 1px
+}
+
+
+.tableTh {
+    margin: 0;
+    padding: 0;
+    padding: 0px 3px 0px 3px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 22px;
+    font-weight: bold;
+    font-style: normal;
+    background-color: #8aa0f6;
+}
+
+.inputTable tr[class="oldTr"]{
+
+    background-color: #989898;
+}
+
+.inputTable tr td input[readonly="readonly"]{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    height: 20px;
+    border: 0px groove #CCC;
+    background-color: #fbfbfb;
+    padding: 0px;
+    margin: 0px;
+    line-height: 20px;
+    text-decoration: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: none;
+    border-top-style: none;
+}
+
+.inputTable tr[class="newTr"]{
+
+    background-color: #d29393;
+}
