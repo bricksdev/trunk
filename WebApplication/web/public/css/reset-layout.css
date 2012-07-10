@@ -1,0 +1,277 @@
+/*
+ * 说明：
+ *     本样式借鉴yui grid css，buleprint等样式，根据实际需要裁剪。
+ *     这里主要设置html元素的样式以及常用的布局，以期望在ff、ie上得到一致效果。
+ * 作者：王恭安
+ * 日期：2010-12-22
+ * Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+body
+{
+    height:100%;
+    padding:0;
+    /*margin:0;*/ /*这句话在ie6下有问题*/
+    /*  text-align:center;   这句话在IE6\IE7下 tree会变形*/
+    font-size: 12px;
+    line-height: 1.231; /*字体高的倍数，比1大表示行之间有空白*/
+}
+divSharePoint Designer
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+a
+{
+    text-decoration:none;
+    font-family:"宋体",Arial,Helvetica,sans-serif;
+    font-weight: lighter;
+    vertical-align: middle;
+    text-align: left;
+    color:#264409;
+}
+a:hover
+{
+    color:#f60;
+    text-decoration:underline;
+}
+img
+{
+    border-width: 0px;
+}
+
+li
+{
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: lighter;
+    vertical-align: middle;
+    text-align: left;
+}
+
+/*---自定义的元素----*/
+.panel .title
+{
+    font-size:14px;
+    line-height: 20px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    vertical-align: middle;
+    /*    height:30px;*/
+}
+.panel .msg
+{
+    position:absolute;
+    top:30px;
+    left:0px;
+    right:0px;
+    height:18px;
+    padding: 0.4em;
+    text-align: left;
+}
+
+.title img
+{
+    /* margin-top: -2px;
+     margin-left: 5px;
+     height: 30px;
+     width: 24px;*/
+}
+.title a
+{
+    /*    font-weight:bolder;*/
+    margin-left:5px;
+    margin-top:0px;
+    font-size: 100%;
+}
+
+.title span
+{
+    float:left;
+    margin-left: 2px;
+    margin-top:5px;
+    /*    font-weight:bolder;*/
+    vertical-align:middle;
+}
+.panel .content
+{
+    position:absolute;
+    top:58px;/*考虑msg的高度*/
+    left:2px;
+    right:2px;
+    bottom:0px;
+    overflow:auto;
+    border:0;
+}
+.panel .contentR
+{
+    position:absolute;
+    top:32px;
+    left:2px;
+    right:2px;
+    bottom:0px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    border:0;
+}
+.panel2 .title
+{
+    /*    font-weight:bolder;*/
+    font-size:14px;
+    line-height: 16px;
+    position:absolute;
+    top:0px;
+    left:15px;
+    right:15px;
+    height:30px;
+}
+.panel2 .content
+{
+    position: absolute;
+    left:15px;
+    right:15px;
+    bottom:0px;
+    overflow:auto;
+    border:0;
+    top:32px; /*panel2没有msg，不需要考虑msg的高度*/
+    text-align: left;
+}
+
+.panel2 .content ul
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.toolbar,.A-toolbar,.A-left-toolbar
+{
+    overflow: hidden;
+}
+.toolbar .toolbarButton
+{
+    cursor: pointer;
+    display: inline;
+    float: left;
+    font-size: 1.17em;
+    height: 50px;
+    width: 60px;
+    padding: 5px 3px;
+    overflow: hidden;
+}
+.toolbar .toolbarButtonIcon
+{
+    background-position: center center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 33px;
+    width: 32px;
+    margin: auto;
+    overflow: hidden;
+}
+.toolbar .toolbarButtonText
+{
+    cursor: pointer;
+    height: 20px;
+    margin: 0 5px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.A-toolbar a
+{
+    background-position: top center;
+    background-repeat: no-repeat;
+    display: inline;
+    float:left;
+    text-align: center;
+    font-size: 1.17em;
+    /*    font-size: 3em;*/
+    font-weight:bold;
+    height: 50px;
+    /*margin-left: 10px;*/
+    padding-top:35px;
+    padding-left: 3px;
+    padding-right: 3px;
+    overflow: hidden;
+}
+.A-left-toolbar a
+{
+    background-position: center left;
+    background-repeat: no-repeat;
+    display: inline;
+    float:left;
+    text-align: center;
+    margin-left: 20px;
+}
+.A-left-toolbar .icon
+{
+    padding-left: 20px;
+}
+/* Use a .box to create a padded box inside a column.  */
+.box
+{
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+/*--------------------------*/
+
+
+
+.kop_skin p{
+    width:33%;
+    /*    height: 20px;*/
+    margin: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    border-width: 0px;
+    float:left;
+    /*    padding: 2px;*/
+    overflow: hidden;
+}
+
+.kop_skin p label{
+    height: 23px;
+    float: left;
+    width: 35%;
+    text-align: right;
+    line-height: 21px;
+    padding-right: 0px;
+    /*      line-height: 25px;*/
+}
+
+.kop_skin p .label{
+    height: 23px;
+    float: left;
+    width: 4%;
+    text-align: center;
+    line-height: 21px;
+    padding-right: 10px;
+    /*   line-height: 25px;*/
+}
+.last {clear:both;padding-bottom: 3px}
+
+.single{width:100%;float:left;}
+
+.partOne{
+    width:100%;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    position:relative;
+    MARGIN-RIGHT: auto;
+    MARGIN-LEFT: auto;
+    clear: right;
+    overflow:hidden;
+}
+
+.partTwo{
+    text-align: center;
+    width:70%;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    MARGIN-RIGHT: auto;
+    MARGIN-LEFT: auto;
+    clear:left;
+
+}

@@ -1,0 +1,86 @@
+/* 
+Document   : input_table
+Created on : 2010-1-11, 16:14:15
+Author     : fsf210199
+Description:
+Purpose of the stylesheet follows.
+*/
+
+/* 
+TODO customize this sample style
+Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+.table_tr{
+    width: 98%;
+    margin: 1px;
+}
+.table_cell_a{
+    float: left;
+    width: auto;
+    margin: 0px;
+    height: auto;
+    color: #595959;
+    border-bottom-width: 0px;
+    border-bottom-style: dashed;
+    border-bottom-color: #DFDFDF;
+    padding-top: 6px;
+    padding-left: 16px;
+}
+.table_cell{
+    float: left;
+    width: auto;
+    margin: 0px;
+    height: auto;
+    color: #595959;
+    border-bottom-width: 0px;
+    border-bottom-style: dashed;
+    border-bottom-color: #DFDFDF;
+    padding-top: 6px;
+    padding-right: 0px;
+    padding-bottom: 6px;
+    padding-left: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+}
+.table_cell_a label{
+    float: left;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-right: 5px;
+    font-weight: bold;
+    color: #475620;
+}
+
+.table_cell label{
+    float: left;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    font-weight: bold;
+    color: #475663;
+}
+
+.table_cell span{    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    color: #475663;
+}

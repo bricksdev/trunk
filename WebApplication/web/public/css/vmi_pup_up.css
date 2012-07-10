@@ -1,0 +1,221 @@
+/**************************************************************
+函数名：css
+功能：	web2.0_GUI规范标准策划设计
+参数：	css	当前式样表名称的名称
+作者：	BYD 电脑中心 唐磊 2009年06月17号
+***************最后修改编辑时间： 2009年06-18*****************************/
+@charset "UTF-8";
+
+
+@import url(vmi_planmanage.css);             /**计划管理-供应商协同**/
+
+
+
+
+
+body {
+	padding: 0px;
+	background-color: #FFFFFF;
+	margin: 0px auto 0px auto;
+	text-align: center;
+
+}
+
+
+
+.input_tx_xa{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	height: 16px;
+	width: 30px;
+	border: 1px groove #869DA9;
+	background-color: #FAFCFD;
+	padding: 0px;
+	margin: 0px;
+	line-height: 16px;
+	font-weight: lighter;
+}
+
+.input_tx_xa:hover{
+	border:1px solid #1D95C7;
+	background-color: #F0F9FB;
+}
+
+
+.vmi_inp_c_xa{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	height: 20px;
+	width: 190px;
+	border: 1px groove #CCCCCC;
+	background-color: #FAFCFD;
+	padding: 0px;
+	margin: 0px;
+	line-height: 20px;
+	font-weight: lighter;
+	color: #333333;
+}
+
+.vmi_inp_c:hover{
+	border:1px solid #1D95C7;
+	background-color: #F0F9FB;
+}
+
+
+
+#vmi_global_c_xa{
+	width: 400px;
+	color: #454545;
+	padding: 0px;
+	height: auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+
+
+
+
+.vmi_btnmain_xa{
+	margin: 0px;
+	height: 20px;
+	width: auto;
+	background-image: url(../images/vmi_btnmain_b.gif);
+	background-repeat: repeat-x;
+	background-position: 0px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 20px;
+		color: #FF954B;
+
+	font-size: 12px;
+	font-weight: lighter;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	float: left;
+	text-align: center;
+	vertical-align: middle;
+	padding: 0px;
+}
+.vmi_pl_fy_xa{
+	margin: 0px;
+	padding: 0px;
+	height: 25px;
+	float: left;
+	width: 74px;
+}
+
+.vmi_planmanage_fy_xb{
+	margin: 0px;
+	float: right;
+	width: 75%;
+	height: 25px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.vmi_planmanage_sc_xb{
+	margin: 0px;
+	float: left;
+	width: 25%;
+	height: 25px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.vmi_planmanage_fy_xa{
+	margin: 0px;
+	float: right;
+	width: 100%;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+
+.vmi_planmanage_fy_a_xa{
+	margin: 0px;
+	float: right;
+	height: 25px;
+	padding: 0px;
+	width: 86%;
+}
+
+.vmi_planmanage_fy_a_xc{
+	margin: 0px;
+	float: right;
+	height: 25px;
+	padding: 0px;
+	width: 100%;
+}
+
+
+
+
+
+
+
+.vmiwms_box_smcf_xa{
+	color: #595959;
+	width: 100%;
+	float: left;
+	height: auto;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #DFDFDF;
+	margin: 0px;
+	padding-top: 4px;
+	padding-right: 0px;
+	padding-bottom: 1px;
+	padding-left: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-top-style: dashed;
+	border-right-style: dashed;
+	border-left-style: dashed;
+}
+.vmiwms_box_smcf_xa label{
+	float: left;
+	width: 115px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 24px;
+	padding: 0px;
+	font-weight: bold;
+	color: #475663;
+	margin: 0px;
+}
+
+
+.vmiwms_cx_span_xa{
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 200px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.vmi_planmanage_title_xa{
+	padding: 0px;
+	float: left;
+	width: 100%;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}

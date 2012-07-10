@@ -1,0 +1,256 @@
+/**************************************************************
+函数名：css
+功能：	web2.0_GUI规范标准策划设计
+参数：	css	当前式样表名称的名称
+作者：	BYD 电脑中心 唐磊 2009年04月30号
+最后修改编辑时间： 2009年05月07号
+**************************************************************/
+@charset "UTF-8";
+
+.vmiwms_box_sc{
+	padding: 0px;
+	float: left;
+	width: 946px;
+	background-image: url(../images/vmiuf_box_sc.gif);
+	background-repeat: repeat-x;
+	background-position: 0px top;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 1px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+.vmiwms_box_title{
+	padding: 0px;
+	width: 90%;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+.vmiwms_box_smcf{
+	color: #595959;
+	width: 48%;
+	float: left;
+	height: auto;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #DFDFDF;
+	margin: 0px;
+	padding-top: 6px;
+	padding-right: 0px;
+	padding-bottom: 6px;
+	padding-left: 1%;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+}
+.vmiwms_box_smcf label{
+	float: left;
+	width: 125px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 24px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 30px;
+	font-weight: bold;
+	color: #475663;
+}
+
+
+.vmiwms_cx_span{
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 205px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.vmiwms_cx_smcf{
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 24px;
+	
+}
+.vmiwms_cx_smcf b{
+	font-weight: lighter;
+	color: #FF0000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding-left: 15px;
+}
+.vmiwms_cx_smcf a{
+	color: #494949;
+	text-decoration: none;
+}
+.vmiwms_cx_smcf a:hover{
+    color: #51B400;
+	text-decoration: underline;
+}
+
+
+.vmiwms_box_button{
+	color: #595959;
+	width: 59%;
+	height: auto;
+	border-bottom-width: 0px;
+	border-bottom-style: none;
+	border-bottom-color: #DFDFDF;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20%;
+	text-align: center;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	margin: 0px;
+	float: left;
+}
+.vmiwms_but{
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 50%;
+	float: left;
+}
+.vmiwms_planmanage_title{
+	padding: 0px;
+	float: left;
+	height: 30px;
+	width: 100%;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+.vmiwms_planmanage_sc{
+	margin: 0px;
+	float: right;
+	width: 64%;
+	height: 25px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.vmiwms_planmanage_fy{
+	margin: 0px;
+	float: left;
+	width: 36%;
+	height: 25px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	background-color: #E8F7E6;
+}
+
+
+.vmi_radio_a{
+	margin: 0px;
+	padding: 0px;
+}
+.vmiwms_p_sz_a{
+	padding: 0px;
+	height: 25px;
+	width: 100px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	float: left;
+}
+
+.vmiwms_p_sz_w{
+	margin: 0px;
+	float: right;
+	height: 25px;
+	padding: 0px;
+	width: 91%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 25px;
+	color: #0C3883;
+}
+
+.vmiwms_box_title_b{
+	padding: 0px;
+	width: 90%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+
+.vmiwms_box_smcf{
+	color: #595959;
+	width: 48%;
+	float: left;
+	height: auto;
+	border-bottom-width: 1px;
+	border-bottom-style: none;
+	border-bottom-color: #DFDFDF;
+	margin: 0px;
+	padding-top: 6px;
+	padding-right: 0px;
+	padding-bottom: 6px;
+	padding-left: 1%;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+}
+.vmiwms_box_smcf label{
+	float: left;
+	width: 125px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 24px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 30px;
+	font-weight: bold;
+	color: #475663;
+}
+
+.vmiwms_cx_span{
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 205px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+}
