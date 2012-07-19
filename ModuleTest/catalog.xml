@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://10.3.3.12/LMIS/Operation/WS_Vendor_PartsOut.asmx?WSDL" uri="xml-resources/web-service-references/WS_Vendor_PartsOut/wsdl/10.3.3.12/LMIS/Operation/WS_Vendor_PartsOut.asmx.wsdl"/>
+    <system systemId="file:/home/kete/wsdl/WS_Vendor_PartsOut.asmx" uri="xml-resources/web-service-references/WS_Vendor_PartsOut/wsdl/WS_Vendor_PartsOut.asmx.wsdl"/>
+    <system systemId="file:/media/WINLOCAL/softdev/Source%20codes/BPS/VMI/ModuleTest/../../../../../../../home/kete/schema.xsd" uri="xml-resources/jaxb/jxb2/schema.xsd"/>
+</catalog>

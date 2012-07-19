@@ -1,0 +1,7 @@
+dispay,url,taskid,node,status,operatFlag,operator,plant,statemanager,processNode,details
+收货,Receipt.jsp,100001,receipt,待收货,,1,A154,,,1
+质检,iqc.jsp,100002,iqc,已质检,,1,A154,,,3
+收货,Receipt.jsp,100003,receipt,待收货,,2,A154,,,2
+质检,iqc.jsp,100004,iqc,已质检,,2,A154,,,4
+收货,Receipt.jsp,300003,receipt,待收货,,383926,A154,,,383926
+质检,iqc.jsp,300004,iqc,已质检,,383926,A154,,,383926

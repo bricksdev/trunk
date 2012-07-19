@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+  <!--<LoggerFactory type=""/>
+  <InstanceFactory type=""/>
+  <TransactionFactory type=""/>
+  <AuthenticationFactory type=""/>-->
+    <bean id="asnModule" type="cn.com.byd.modules.AsnModule" >
+<!--        <property id="" value="" />-->
+    </bean>
+    <bean id="iqcModule" type="cn.com.byd.modules.IQCModule" >
+<!--        <property id="" value="" />-->
+    </bean>
+    <bean id="receiveRoomModule" type="cn.com.byd.modules.ReceiveRoomModule"  />
+    <bean id="transactionModule" type="cn.com.byd.modules.TransactionModule"  />
+<!-- proxy="true"-->
+    <bean id="receiveModule" type="cn.com.byd.iservice.impl.ReceiveImpl" single="true"/>
+
+
+    <modules method="saveReceive" beanId="receiveModule" logging="true" transaction="true" verify="true">
+<!--        <variable id="" type="" init=""/>-->
+        <parameters>
+            <parameter id="asnNo" type="java.lang.String"/>
+        </parameters>
+        <result type="java.lang.String">
+            <append prepend="数据保存成功,凭证号:" value="wmsPzh"/>
+            <append prepend=",送检单号:" value="insepctionId" />
+        </result>
+        <module method="queryAsnItems" beanId="asnModule">
+            <parameters>
+                <parameter type="java.lang.String" value="asnNo"/>
+            </parameters>
+            <result id="asnItemsList" type="java.util.List"/>
+        </module>
+        <module method="saveIQCInfo" beanId="iqcModule">
+            <parameters>
+                <parameter type="cn.com.byd.beans.ReceiveRoomBean">
+                    <property id="asnNo" type="java.lang.String" value="asnNo"/>
+                </parameter>
+            </parameters>
+            <result id="insepctionId" type="java.lang.String"/>
+        </module>
+
+        <module method="saveTransaction" beanId="transactionModule">
+            <parameters>
+                <parameter type="cn.com.byd.beans.TransactionHeader">
+                    <property id="asnNo" type="java.lang.String" value="asnNo"/>
+                </parameter>
+                <parameter type="cn.com.byd.beans.TransactionItem">
+                    <property id="asnNo" type="java.lang.String" value="asnNo"/>
+                </parameter>
+            </parameters>
+            <result id="wmsPzh" type="java.lang.String"/>
+        </module>
+    </modules>
+</config>

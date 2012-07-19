@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <context-param>
+        <description>运行模式</description>
+        <param-name>model</param-name>
+        <param-value>test</param-value>
+    </context-param>
+
+    <listener>
+        <description>运行模式监听</description>
+        <listener-class>cn.com.wapps.listener.ModelServletListener</listener-class>
+    </listener>
+    <filter>
+        <filter-name>FilterDispatcher</filter-name>
+        <filter-class>byd.mvc.FilterDispatcher</filter-class>
+        <init-param>
+            <param-name>formPackage</param-name>
+            <param-value>forms</param-value>
+        </init-param>
+        <init-param>
+            <param-name>viewPath</param-name>
+            <param-value/>
+        </init-param>
+    </filter>
+    <filter>
+        <filter-name>authority</filter-name>
+        <filter-class>cn.com.wapps.DispatcherFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>FilterDispatcher</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>authority</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>login.jsp</welcome-file>
+<!--        <welcome-file>Index.jsp</welcome-file>-->
+    </welcome-file-list>
+    <jsp-config>
+        <jsp-property-group>
+            <description>自定义标签</description>
+            <display-name>h</display-name>
+            <url-pattern>/WEB-INF/tlds/template.tld</url-pattern>
+            <el-ignored>false</el-ignored>
+        </jsp-property-group>
+    </jsp-config>
+</web-app>

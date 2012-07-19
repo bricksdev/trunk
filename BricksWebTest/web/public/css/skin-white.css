@@ -1,0 +1,187 @@
+/*
+ * 说明：
+ *     这里主要设置色彩、边框、背景灯，以期望得到绚丽的效果。
+ * 作者：王恭安
+ * 日期：2010-12-20
+ * Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+/*边线*/
+
+.border
+{
+    border-style:solid;
+    border-color:#81AAFF;
+    border-width:1px;
+    background:white;
+
+    -moz-border-radius:6px;
+}
+
+.border-right
+{
+    border-right-color: silver;
+    border-right-style: dashed;
+}
+.panel .title ,.panel2 .title
+{
+    /*background:url(../img/line3.jpg) repeat-x 1px 29px ;*/
+    border-bottom-color:#81AAFF;
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+}
+.panel .msg
+{
+    background: url("../images/expand.jpg");
+}
+.panel .content,.panel2 .content
+{
+    border:0;
+}
+.title a
+{
+    color:#5274d0;
+}
+
+.title span
+{
+    color:#264409;
+}
+.panel2 .content table thead
+{
+    background-color: #edf6fd;
+}
+/* Use a .box to create a padded box inside a column.  */
+.box {
+    background: #E5ECF9;
+}
+.shadow
+{
+    /*background: url("../img/shadow.png") no-repeat scroll right bottom transparent !important;*/
+
+    /* -moz-box-shadow: -2px -2px 10px #000; /*ff*/
+    /* -webkit-box-shadow: 2px 2px 10px #000;/**/
+
+    /*ie*/
+    /* -ms-filter: "progid:DXImageTransform.Microsoft.Glow(color=#666666,strength=3)
+     progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=135,strength=6)";
+     filter: progid:DXImageTransform.Microsoft.Glow(color=#666666,strength=3)
+     progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=135,strength=6);
+     /*--ie*/
+
+}
+
+a:hover
+{
+    color:#f60;
+    text-decoration:underline;
+}
+/*.A-toolbar a
+{
+    color: #3AB094;
+}*/
+.A-toolbar .actived a,.A-toolbar .actived-8 a{
+    filter: glow(color=#FFEB01,strength=0);color:#FA8F1B;
+}
+
+#subMenu li .actived,#subMenu li .actived-8{
+    filter: glow(color=#FFEB01,strength=0);color:#FA8F1B;
+}
+/* Success, notice and error boxes
+-------------------------------------------------------------- */
+
+.error,
+.notice,
+.success    { padding: .8em; margin-bottom: 1em; border: 2px solid #ddd; }
+
+.error      { background: #FBE3E4; color: #8a1f11; border-color: #FBC2C4; }
+.notice     { background: #FFF6BF; color: #514721; border-color: #FFD324; }
+.success    { background: #E6EFC2; color: #264409; border-color: #C6D880; }
+.error a    { color: #8a1f11; }
+.notice a   { color: #514721; }
+.success a  { color: #264409; }
+
+.quiet      { color: #666; }
+.loud       { color: #000; }
+.highlight  { background:#ff0; }
+.added      { background:#060; color: #fff; }
+.removed    { background:#900; color: #fff; }
+.errmsg{
+    height:18px;
+    left:0;
+    padding:0.2em;
+    position:absolute;
+    right:0;
+    top:-3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FF6D05;
+    /*    text-align: center;*/
+    font-weight: bold;
+    background-color: #FFFFDF;
+    text-align: center;
+}
+.infomsg{
+    height:18px;
+    left:0;
+    padding:0.2em;
+    position:absolute;
+    right:0;
+    top:-3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    color: #51B400;
+    /*    text-align: center;*/
+    font-weight: bold;
+    background-color: #E8F7E6;
+    text-align: center;
+}
+/*------------*/
+.kop_skin p label{
+    font-size:12px;
+    /*    color:#009B8B;*/
+    font-family: "宋体",Arial, Helvetica, sans-serif;
+    /*    font-weight: bold;*/
+    overflow:hidden;
+}
+.kop_skin input.text,.kop_skin input.password,.kop_skin .select,.kop_skin textarea {background-color:#fff;}
+.kop_skin input.text:hover,.kop_skin input.password:hover,.kop_skin .select:hover,textarea:hover{border-color:#264409;}
+.kop_skin input.text,.kop_skin input.password,.kop_skin .select,.kop_skin textarea{margin:0.5em 0;}
+.kop_skin input.text,.kop_skin input.password,.kop_skin .select,.kop_skin textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    border: 1px solid #7f9db9;
+    background-color: #FAFCFD;
+    padding: 0px;
+    margin: 0px;
+/*    line-height: 16px;*/
+    font-weight: lighter;
+    color: #333333;
+    float:left;
+    width: 60%;
+}
+.kop_skin input.text,.kop_skin input.password,.kop_skin input.text2{
+    height: 21px;
+}
+.kop_skin .select{
+    height: 23px;
+}
+
+.kop_skin input.text2{
+    margin:0.5em 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    border: 1px solid #7f9db9;
+    background-color: #FAFCFD;
+    padding: 0px;
+    margin: 0px;
+/*    line-height: 18px;*/
+    font-weight: lighter;
+    color: #333333;
+    float:left;
+    width: 26%;
+}

@@ -1,0 +1,4 @@
+type,typeDesc,content,url,taskid,parameter,tasks
+02,task2,10001,Task2_list.jsp,20001,id,
+02,task2,10002,Task2_list.jsp,20002,id,
+02,task2,10003,Task2_list.jsp,20003,id,

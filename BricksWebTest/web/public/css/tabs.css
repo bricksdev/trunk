@@ -1,0 +1,7 @@
+.tabsB{border-bottom:2px solid #7BAED1; height:20px;margin:0;padding:0;}
+.tabsB li{margin-left:1px;list-style:none;float:left;background:url("../ins/tabs/tabsB_left.gif") left top no-repeat;height:20px;}
+.tabsB li span{cursor:pointer;display:block;padding:3px 8px; margin-left:2px;font-weight:bold;color:#455B80 !important;background:url("../ins/tabs/tabsB_right.gif") right top no-repeat;}
+
+.tabsB li.current{background:url("../ins/tabs/tabsB_current_left.gif")  left top no-repeat;}
+.tabsB li.current span{display:block;color:#172E54;background:url("../ins/tabs/tabsB_current_right.gif") right top no-repeat;}
+

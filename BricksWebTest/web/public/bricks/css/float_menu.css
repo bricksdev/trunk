@@ -1,0 +1,284 @@
+/* common styling */
+.menu {
+    font-family: Arial, Helvetica, sans-serif;
+    width:85%;
+    position:relative;
+    margin:0;
+    font-size:15px;
+    margin:0px auto;
+    padding-left: 140px;
+    height: 25px;
+    float:left;
+}
+.menu ul li a, .menu ul li a:visited {
+    display:block;
+    text-decoration:none;
+    width:104px;
+    height:23px;
+    text-align:center;
+    color:#fff;
+    border:1px solid #8aa0f6;
+    background-color: #1369e5;
+    line-height:25px;
+    font-size:12px;
+    overflow:hidden;
+}
+.menu ul {
+    padding:0;
+    margin:0;
+    list-style-type: none;
+}
+.menu ul li {
+    float:left;
+    margin-right:1px;
+    position:relative;
+}
+.menu ul li ul {
+    display: none;
+}
+
+/* specific to non IE browsers */
+.menu ul li:hover a {
+    color:#fff;
+    background-color: #b3c4f3;
+}
+.menu ul li:hover ul {
+    display:block;
+    position:absolute;
+    top:21px;
+    left:0;
+    width:105px;
+}
+.menu ul li:hover ul li a.hide {
+    background:#6a3;
+    color:#fff;
+}
+.menu ul li:hover ul li:hover a.hide {
+    background:#6fc;
+    color:#000;
+}
+.menu ul li:hover ul li ul {
+    display: none;
+}
+.menu ul li:hover ul li a {
+    display:block;
+    background:#ddd;
+    color:#000;
+}
+.menu ul li:hover ul li a:hover {
+    background:#6fc;
+    color:#000;
+}
+.menu ul li:hover ul li:hover ul {
+    display:block;
+    position:absolute;
+    left:105px;
+    top:0;
+}
+.menu ul li:hover ul li:hover ul.left {
+    left:-105px;
+}
+
+
+#taskbox{
+    width: 130px;
+    float: left;
+    display: inline;
+    clear:both;
+}
+
+/* common styling */
+.task {
+    font-family: Arial, Helvetica, sans-serif;
+    width:100%;
+    position:relative;
+    font-size:15px;
+    margin:0px auto;
+    height: 25px;
+    float:left;
+
+}
+.task ul li a, .task ul li a:visited {
+    display:block;
+    text-decoration:none;
+    width:104px;
+    height:23px;
+    text-align:center;
+    color:#fff;
+    border:1px solid #8aa0f6;
+    background-color: #1369e5;
+    line-height:25px;
+    font-size:12px;
+    overflow:hidden;
+}
+.task ul {
+    padding:0;
+    margin:0;
+    list-style-type: none;
+}
+.task ul li {
+    float:left;
+    margin-right:1px;
+    position:relative;
+}
+.task ul li ul {
+    display: none;
+}
+ /*specific to non IE browsers*/
+.task ul li:hover a {
+    color:#fff;
+    background-color: #b3c4f3;
+}
+.task ul li:hover ul {
+    display:block;
+    position:absolute;
+    top:21px;
+    left:0;
+    width:105px;
+}
+.task ul li:hover ul li a.hide {
+    background:#6a3;
+    color:#fff;
+}
+.task ul li:hover ul li:hover a.hide {
+    background:#6fc;
+    color:#000;
+}
+.task ul li:hover ul li ul {
+    display: none;
+}
+.task ul li:hover ul li a {
+    display:block;
+    background:#ddd;
+    color:#000;
+}
+.task ul li:hover ul li a:hover {
+    background:#6fc;
+    color:#000;
+}
+.task ul li:hover ul li:hover ul {
+    display:block;
+    position:absolute;
+    left:105px;
+    top:0;
+}
+
+.task ul li:hover ul li:hover ul.left {
+    left:-105px;
+}
+.task ul li:hover ul li:hover ul li ul{
+    display:none;
+}
+.task ul li:hover ul li:hover ul li a:hover {
+    background:#6fc;
+    color:#000;
+}
+.task ul li:hover ul li:hover ul li:hover ul {
+    display:block;
+    position:absolute;
+    left:105px;
+    top:0;
+}
+/** xin */
+/*
+.task{
+    font-family: Arial, Helvetica, sans-serif;
+    width:100%;
+    position:relative;
+    font-size:15px;
+    margin:0px auto;
+
+    height: 25px;
+    float:left;
+}
+.task ul{
+    list-style-type:none;
+}
+.task li{
+    float:left;
+    position:relative;
+}
+.task ul ul{
+    visibility:hidden;
+    position:absolute;
+    left:0px;
+    top:20px;
+    border:1px solid #000;
+}
+.task ul ul ul{
+    visibility:hidden;
+    position:absolute;
+    left:105px;
+    top:0px;
+    border:solid 1px #999999;
+}
+.task table{position:absolute;top:0;left:0;}
+.task ul li:hover ul,.task ul a:hover ul{
+    visibility:visible;
+}
+.task a{
+    display:block;
+    background:#1369e5;
+    padding:2px 10px;
+    color:#fff;
+    text-decoration:none;
+    border:1px solid #360;
+}
+.task a:hover{
+    background:#b3c4f3;
+    color:#000;
+}
+.task ul ul li{
+    clear:both;
+    text-align:left;
+}
+.task ul ul li a{
+    display:block;
+    width:105px;
+    height:25px;
+}
+.task ul ul li a:hover{
+    background:#1369e5;
+}
+.task ul ul ul li a{
+    clear:both;
+    text-align:center;
+}
+.task ul li:hover ul{
+    visibility:visible;
+}
+.task ul a:hover ul{
+    visibility:visible;
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+.task ul :hover ul ul{
+    visibility:hidden;
+
+}
+.task ul :hover ul :hover ul ul{
+    visibility:hidden;
+
+}
+.task ul :hover ul :hover ul{
+    visibility:visible;
+    一级二级菜单hover时，设定3级菜单可见
+}
+.task ul :hover ul :hover ul :hover ul{
+    visibility:visible
+
+}
+.task ul ul ul a{
+    background:#00CCFF;
+}
+.task ul ul ul a:hover{
+    background:#0066FF;
+}
+.task ul ul ul ul a{
+    background:#390;
+}
+.task ul ul ul ul a:hover{
+    background:#690;
+}*/

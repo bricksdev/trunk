@@ -1,0 +1,465 @@
+/**************************************************************
+函数名：css
+功能：	web2.0_GUI规范标准策划设计
+参数：	css	当前式样表名称的名称
+作者：	BYD 电脑中心 唐磊 2009年05月26号
+**************************************************************/
+@charset "UTF-8";
+
+
+
+
+body {
+	padding: 0px;
+	background-color: #FFFFFF;
+	margin: 0px auto 0px auto;
+	text-align: center;
+	background-image: url(../images/vmi_bj.jpg);
+	background-repeat: repeat-x;
+	background-position: center -40px;
+	
+}
+
+
+
+
+
+#vmi_global_content_login{
+	width: 950px;
+	color: #454545;
+	padding: 0px;
+	height: auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+
+
+#vmi_top_header_login{
+	height: 75px;
+	padding: 0px;
+	width: 100%;
+	float: left;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #CEC7BD;
+	border-right-color: #CEC7BD;
+	border-bottom-color: #CEC7BD;
+	border-left-color: #CEC7BD;
+/*	background-image: url(../images/vmi_top_login.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+*/
+}
+.vmi_top_header_a_login{
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+	height: 72px;
+}
+.vmi_top_header_aa_login{
+	float: left;
+	height: 45px;
+	width: 235px;
+	background-image: url(../images/vmi_top_login.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+	padding: 0px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+
+.vmi_top_header_ab_login{
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	width: 50%;
+}
+
+.vmi_lang_a{
+	margin: 0px;
+	padding: 0px;
+	float: right;
+}
+
+
+#vmi_content_login{
+	width: 100%;
+	float: left;
+	padding: 0px;
+	height: auto;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.vmi_planmanage_login{
+	margin: 0px;
+	float: left;
+	width: 100%;
+	padding: 0px;
+	height: auto;
+}
+
+
+
+
+
+
+
+
+.vmi_teble_h2_login{
+	background-image: url(../images/vmi_teble_h2.gif);
+	margin: 0px;
+	float: left;
+	width: 100%;
+	background-repeat: repeat-x;
+	background-position: 0px 0px;
+	height: 24px;
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 24px;
+	font-weight: bold;
+	padding: 0px;
+	text-align: center;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+
+
+
+
+
+.vmi_box_login{
+	padding: 0px;
+	float: left;
+	width: 946px;
+	background-image: url(../images/vmiuf_box_sc.gif);
+	background-repeat: repeat-x;
+	background-position: 0px top;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 1px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+
+.vmi_box_login_q{
+	padding: 0px;
+	float: left;
+	width: 100%;
+	background-image: url(../images/login_ps-q.gif);
+	background-repeat: no-repeat;
+	background-position: 65px center;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: 0px;
+	background-attachment: fixed;
+}
+
+
+
+.vmis_box_title_login{
+	padding: 0px;
+	width: 50%;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.vmi_box_smcf_login{
+	color: #595959;
+	width: 100%;
+	float: left;
+	height: auto;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #DFDFDF;
+	margin: 0px;
+	padding-top: 6px;
+	padding-right: 0px;
+	padding-bottom: 6px;
+	padding-left: 0px;
+}
+.vmi_box_smcf_login label{
+	float: left;
+	width: 125px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 24px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 30px;
+	font-weight: bold;
+	color: #475663;
+}
+.vmiuf_cx_span_login{
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 250px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+}
+.vmiuf_cx_smcf_login{
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 24px;
+	
+}
+
+
+
+
+
+
+.vmicx_box_text_login{
+	font-size:12px;
+	color: #46535B;
+	width: 100%;
+	float: left;
+	height: auto;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #DFDFDF;
+	margin: 0px;
+	text-align: center;
+	padding: 0px;
+}
+.vmicx_box_text_login label{
+	float: left;
+	width: 125px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 30px;
+	font-weight: bold;
+	color: #475663;
+	line-height: 20px;
+}
+.vmicx_box_text_login b{
+	font-size:12px;
+	color: #FF0000;
+	line-height:22px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.vmicx_box_button_login{
+	color: #595959;
+	width: 80%;
+	height: auto;
+	border-bottom-width: 0px;
+	border-bottom-style: none;
+	border-bottom-color: #DFDFDF;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10%;
+	text-align: center;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	margin: 0px;
+	float: left;
+}
+.vmicx_but_login{
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 50%;
+	float: left;
+}
+
+
+
+
+
+.vmi_btnmain_c{
+	margin: 0px;
+	height: 47px;
+	width: 144px;
+	background-image: url(../images/vmi_button_l.jpg);
+	background-repeat: repeat-x;
+	background-position: 0px 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FAFCFB;
+	font-size: 12px;
+	font-weight: lighter;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	text-align: center;
+	vertical-align: top;
+	padding: 0px;
+	background-color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.vmi_select_a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	height: 20px;
+	width: 230px;
+	border: 1px groove #CCCCCC;
+	background-color: #FAFCFD;
+	padding: 0px;
+	margin: 0px;
+	line-height: 20px;
+	font-weight: lighter;
+	white-space: nowrap;
+}
+
+.vmi_select_a:hover{
+	border:1px solid #1D95C7;
+	background-color: #F0F9FB;
+}
+
+
+
+.vmi_inp_login{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	height: 20px;
+	width: 230px;
+	border: 1px groove #CCCCCC;
+	background-color: #FAFCFD;
+	padding: 0px;
+	margin: 0px;
+	line-height: 20px;
+	font-weight: lighter;
+	color: #333333;
+}
+
+.vmi_inp_login:hover{
+	border:1px solid #1D95C7;
+	background-color: #F0F9FB;
+}
+
+
+
+
+#vmi_footer_login{
+	float: left;
+	height: 25px;
+	width: 948px;
+	background-color: #E9EEF6;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 25px;
+	text-align: center;
+	border: 1px solid #DAD7CB;
+	padding: 0px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}

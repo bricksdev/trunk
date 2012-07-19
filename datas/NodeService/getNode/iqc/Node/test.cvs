@@ -1,0 +1,2 @@
+nodeName,nodeDesc,autoFlag,className,nodeStatus
+iqc,质检,false,cn.com.service.process.impl.InspectProcess,已质检

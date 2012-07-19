@@ -1,0 +1,2 @@
+nodeName,nodeDesc,autoFlag,className,nodeStatus
+receipt,收货,false,cn.com.service.process.impl.ReceiptProcess,已收货

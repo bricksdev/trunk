@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+  <!--<LoggerFactory type=""/>
+  <InstanceFactory type=""/>
+  <TransactionFactory type=""/>
+  <AuthenticationFactory type=""/>-->
+  <bean id="asnModule" type="cn.com.byd.modules.AsnModule"  proxy="true" single="true"/>
+  <bean id="iqcModule" type="cn.com.byd.modules.IQCModule"  proxy="true" single="true"/>
+  <bean id="receiveRoomModule" type="cn.com.byd.modules.ReceiveRoomModule" proxy="true" single="true"/>
+  <bean id="transactionModule" type="cn.com.byd.modules.TransactionModule"  proxy="true" single="true"/>
+  <bean id="receiveModule" type="cn.com.byd.iservice.impl.ReceiveImpl"  proxy="true" single="true"/>
+  <modules method="saveReceive" beanId="receiveModule" logging="true" transaction="true" verify="true">
+    <parameters>
+      <parameter id="asnNo" type="java.lang.String" />
+    </parameters>
+    <result type="java.lang.String">
+      <append prepend="数据保存成功,凭证号:" value="${asnItemsList}"/>
+      <append prepend=",SAP凭证号:" value="sapPzh" emptyAppend="false"/>
+    </result>
+    <module method=""  beanId="">
+      <parameters>
+        <parameter type="java.lang.String" value="asnNo"/>
+      </parameters>
+      <result id="asnItemsList" type="java.util.List"/>
+    </module>
+    <iterator property="asnItemsList" items="row" status="itemState">
+      <isNotEqual property="itemState.index" compareValue="0">
+        <module method=""  beanId="">
+          <parameters>
+            <parameter type="" value="row" />
+          </parameters>
+          <result id="asnItemStatus" type="java.lang.String"/>
+        </module>
+        <module method=""  division="A164;A161;A200" value="row.plantCode" beanId="">
+          <parameters>
+            <parameter type="" >
+              <property id="asnNo" value="asnNo" type="java.lang.String"/>
+              <property id="asnItemNo" value="row.asnItemNo" type="java.lang.String"/>
+              <property id="asnItemStatus" value="asnItemStatus" type="java.lang.String"/>
+            </parameter>
+          </parameters>
+        </module>
+      </isNotEqual>
+      <isEqual property="itemState.index" compareValue="0">
+        <module method="" beanId="">
+          <parameters>
+            <parameter type="" value="row"/>
+          </parameters>
+        </module>
+      </isEqual>
+      <module method=""  beanId="">
+        <parameters>
+          <parameter type="" value="row"/>
+        </parameters>
+        <result id="wmsPzh" type="java.lang.String"/>
+      </module>
+    </iterator>
+    <module method=""  beanId="">
+      <parameters>
+        <parameter type="" value="wmsPzh"/>
+      </parameters>
+      <result id="sapPzh" type="java.lang.String"/>
+    </module>
+  </modules>
+</config>

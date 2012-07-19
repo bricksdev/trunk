@@ -1,0 +1,403 @@
+@import url("calendar.css");
+
+.message{
+
+    padding-left: 10%;
+}
+
+#footerDiv {
+    float: left;
+    height: 25px;
+    width: 99%;
+    background-color: #E9EEF6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: center;
+    border: 1px solid #DAD7CB;
+    padding: 0px;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    clear:both;
+}
+
+#footer{
+    /*    padding-top: 30%;*/
+}
+#header{
+    margin-top: 3px;
+    float: right;
+    clear:both;
+}
+#content{
+
+    margin: 0px;
+    float: right;
+    height: auto;
+}
+
+.form_content {
+
+    background-repeat: no-repeat;
+    background-position: 1px;
+    margin: 0px;
+    float: left;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+    padding: 0px;
+    border-top-width: 1px;
+    border-right-width: 1px;/*.inputTableContent tr:hover td input[readonly="readonly"]{
+
+    background-color: #d4cfcf;
+}*/
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-top-color: #A8B6BF;
+    border-right-color: #A8B6BF;
+    border-bottom-color: #A8B6BF;
+    border-left-color: #A8B6BF;
+    font-size: 12px;
+    color: #FF6D05;
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    text-align: left;
+}
+.conditionsDiv{
+    width: 100%;
+    color: #454545;
+    padding: 1px;
+    height: auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    float: left;
+    text-align: left;
+}
+
+.conditionDiv {
+    color: #595959;
+    float: left;
+    height: auto;
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: #DFDFDF;
+    margin: 0px;
+    padding-top: 3px;
+    padding-right: 0px;
+    padding-bottom: 3px;
+    padding-left: 1%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+}
+.conditionDiv label[class="displayLabel"] {
+    float: left;
+    width: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    padding: 1px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    font-weight: bold;
+    color: #475663;
+    text-align: right;
+}
+
+.conditionDiv input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    height: 20px;
+    border: 1px groove #CCC;
+    background-color: #FAFCFD;
+    padding: 0px;
+    margin: 0px;
+    width: 150px;
+    line-height: 20px;
+    font-weight: lighter;
+    color: #333;
+}
+
+input[readonly]{
+    background-color:transparent;
+    border-color: transparent;
+    border: 0px;
+}
+
+.requriedDiv{
+
+    color: #f10a0a;
+    width: 10px;
+
+}
+
+.conditionFileDiv {
+    color: #595959;
+    width: 100%;
+    float: left;
+    height: auto;
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: #DFDFDF;
+    margin: 0px;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+}
+
+.conditionFileDiv input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    height: 22px;
+    border: 1px groove #CCC;
+    background-color: #FAFCFD;
+    padding: 0px;
+    margin: 0px;
+    line-height: 22px;
+    font-weight: lighter;
+    color: #333;
+    width: auto;
+}
+
+.conditionDiv select {
+
+    border: 1px solid;
+    white-space: pre;
+    color: black;
+    background-color: white;
+    cursor: default;
+    width: 150px;
+}
+
+.conditionFileDiv a{
+
+    color: #fa0505;
+    text-decoration: underline;
+}
+
+.actionDiv {
+    color: #595959;
+    width: 85%;
+    border-bottom-width: 0px;
+    border-bottom-style: none;
+    border-bottom-color: #DFDFDF;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    margin: 0px;
+    float: left;
+
+}
+
+.actionDiv input{
+    margin: 0px;
+    height: 35px;
+    width: 100px;
+    background-image: url(../images/vmi_button_l.jpg);
+    background-repeat: repeat-x;
+    background-position: 0px 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #04110a;
+    font-size: 12px;
+    font-weight: bold;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    text-align: center;
+    vertical-align: bottom;
+    padding: 0px;
+    background-color: #efefef;
+    font-variant: normal;
+}
+
+
+.headerTableDiv {
+    float: left;
+    width: 100%;
+    padding-top: 3px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+
+}
+
+.inputTableHeader{
+
+    border-collapse: separate;
+    border-spacing: 0px;
+    border: 1px solid #D0D0D0;
+}
+.tableButton{
+    margin: 0px;
+    height: 20px;
+    width: auto;
+    background-image: url(../images/vmi_btnmain_b.gif);
+    background-repeat: repeat-x;
+    background-position: 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    color: #FF954B;
+    font-size: 13px;
+    font-weight: lighter;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    /*    float: left;*/
+    padding-top: 0px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.inputTableContent tr td input[id="selectInput"]{
+    width: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.inputTableContent{
+
+    border-spacing: 0px;
+    border: 1px solid #D0D0D0;
+}
+
+
+.inputTableContent tr td{
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-right-color: #D0D0D0;
+    border-left-color: #D0D0D0;
+}
+
+.inputTableContent tr td input{
+    width: 146px;
+    margin: 0px;
+    padding: 0px;
+}
+.inputTableContent tr[class="oldTr"]{
+
+    background-color: #f3f7fb;
+}
+
+.inputTableContent tr[class="newTr"]{
+
+    background-color: #d0e1f4;
+}
+.inputTableContent tr:hover{
+
+    background-color: #9e9e9e;
+}
+
+
+/* 新表格css */
+table {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 9pt;
+    line-height: 150%;
+    color: #000000;
+}
+.inputTableHeader
+{
+    border-right: #808080 1px solid;
+    border-top: #808080 1px solid;
+    border-left: #808080 1px solid;
+    border-bottom: #808080 1px solid;
+    border:0;
+    margin-top: 0px;
+    border-collapse:collapse;
+}
+.inputTableContent
+{
+    border-right: #808080 1px solid;
+    border-top: #808080 1px solid;
+    border-left: #808080 1px solid;
+    border-bottom: #808080 1px solid;
+    border:0;
+    margin-top: 0px;
+    border-collapse:collapse;
+}
+.tableContainerDiv
+{
+    overflow-x:auto;
+    overflow-y:hidden;
+    width:100%;
+
+}
+.bodyContainer
+{
+    height:120px;
+    overflow-x:hidden;
+    overflow-y:auto;
+    padding-bottom: 5px
+}
+.gridCell_standard
+{
+    width:150px;
+    overflow:hidden;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    cursor:default;
+}
+
+th
+{
+    border-right: #a4a6a4 1px solid;
+    border-top: #a4a6a4 1px solid;
+    border-left: #a4a6a4 1px solid;
+    border-bottom: #a4a6a4 1px solid;
+    color:#ffffff;
+    font-weight:bolder;
+    height:25px;
+    cursor:n-resize;
+    background-color: #A6C9D7;
+    text-align: center;
+
+}
+
+.checkThead
+{
+    width: 25px;
+    margin: 0px;
+    padding: 0px;
+}

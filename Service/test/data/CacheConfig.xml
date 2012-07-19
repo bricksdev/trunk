@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <diskStore path="user.dir" />
+
+    <defaultCache maxElementsInMemory="10000" eternal="false"
+        timeToIdleSeconds="120" timeToLiveSeconds="120"
+        overflowToDisk="false" diskPersistent="false"
+        diskExpiryThreadIntervalSeconds="120" memoryStoreEvictionPolicy="LRU" />
+
+    <cache name="TaskCache" maxElementsInMemory="10000" eternal="true"
+        timeToIdleSeconds="120" timeToLiveSeconds="120"
+        overflowToDisk="true" diskPersistent="true"
+        diskExpiryThreadIntervalSeconds="60" memoryStoreEvictionPolicy="LRU" />
+        
+</ehcache>

@@ -1,0 +1,422 @@
+﻿/**************************************************************
+函数名：css
+功能：	web2.0_GUI规范标准策划设计
+参数：	css	当前式样表名称的名称
+作者：	BYD 电脑中心 唐磊 2009年04月20号
+
+*******************最后修改编辑时间： 2009年06-08*****************************/
+@charset "UTF-8";
+
+@import url(vmi_planmanage.css);             /**计划管理-供应商协同**/
+
+@import url(vmi_Report.css);                  /**报表管理-仓库管理**/
+
+
+
+
+
+
+/*
+BODY {
+scrollbar-face-color:#FFFFFF;
+scrollbar-highlight-color:#FFFFFF;
+scrollbar-3dlight-color:#EBF2FA;
+scrollbar-darkshadow-color:#EBF2FA;
+scrollbar-shadow-color:#FFFFFF;
+scrollbar-arrow-color:#3A76B1;
+scrollbar-track-color:#F7FCFF;
+scrollbar-track-color:#DBEEFC;
+}
+*/
+
+
+
+body {
+	padding: 0px;
+	background-color: #FFFFFF;
+	margin: 0px auto 0px auto;
+	text-align: center;
+	background-image: url(../images/vmi_bj.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+}
+
+
+#vmi_global_content{
+	width: 950px;
+	color: #454545;
+	padding: 0px;
+	height: auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+
+
+#vmi_top_header{
+	height: 135px;
+	padding: 0px;
+	width: 100%;
+	float: left;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #CEC7BD;
+	border-right-color: #CEC7BD;
+	border-bottom-color: #CEC7BD;
+	border-left-color: #CEC7BD;
+	background-image: url(../images/vmi_top_header.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+.vmi_top_header_a{
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+	height: 72px;
+}
+.vmi_top_header_aa{
+	float: left;
+	height: 45px;
+	width: 235px;
+	background-image: url(../images/vmi_top_header.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	padding: 0px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.vmi_lang_w{
+	padding: 0px;
+	float: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FE6400;
+	margin: 0px 0px  0px 100px;
+
+}
+.vmi_lang_w a{/* add by liujie*/
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+.vmi_lang_w a:hover{
+	text-decoration: underline;
+}
+
+.vmi_lang_a{
+	margin: 0px;
+	padding: 0px;
+	float: left;/*right update by liujie*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: dashed;
+	border-top-color: #666666;
+	border-right-color: #666666;
+	border-bottom-color: #666666;
+	border-left-color: #666666;
+	width: 55px;
+	line-height: 16px;
+}
+.vmi_lang_a a{
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FE6400;
+}
+.vmi_lang_a a:hover{
+	text-decoration: underline;
+}
+
+.vmi_top_header_ab{
+	padding: 0px;
+	float: right;
+	width: 50%;
+	margin-top: 25px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.vmi_top_header_b{
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+	height: 31px;
+}
+
+.vmi_top_header_b ul {
+	padding: 0px;
+	height: 31px;
+	width: 872px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+
+.vmi_top_header_b li{
+	float:left;
+	display:block;
+	cursor:pointer;
+	width:79px;
+	text-align:center;
+	font-weight:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 31px;
+	height: 31px;
+}
+.vmi_top_header_b li a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 31px;
+	font-weight: lighter;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+}
+.vmi_top_header_b li a:hover{
+	text-decoration: underline;
+}
+
+.vmi_top_header_b li.hover{
+	padding:0px;
+	width:79px;
+	color:#FFFFFF;
+	font-weight:bold;
+	height:31px;
+	line-height:31px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-image: url(../images/vmi_top_nav.jpg);
+	background-repeat: repeat-x;
+	background-position: 0px 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #A8C29F;
+	border-right-color: #A8C29F;
+	border-left-color: #A8C29F;
+	display: block;
+	background-color: #fff;
+}
+
+.vmi_top_header_b li.hover a{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 31px;
+	font-weight: bold;
+	display: block;
+}
+
+.vmi_top_header_b li.hover a:hover{
+	text-decoration: underline;
+	display: block;
+}
+
+
+
+
+
+.vmi_top_header_c{
+	float: left;
+	width: 100%;
+	height: 29px;
+	margin: 0px;
+	padding-top: 1px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 29px;
+	font-size: 12px;
+	color: #0C5E90;
+}
+.vmi_top_header_c li{
+	float:left;
+	display:block;
+	cursor:pointer;
+	width:auto;
+	text-align:center;
+	font-weight:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 29px;
+	height: 29px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin: 0px;
+}
+
+.vmi_top_header_c li a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 29px;
+	font-weight: lighter;
+	color: #333333;
+	text-decoration: none;
+	display: block;
+}
+.vmi_top_header_c li a:hover{
+	text-decoration: underline;
+	color: #51B400;
+}
+
+
+
+#con_two_2 ul{
+	padding: 0px;
+	height: 29px;
+	margin: 0px;
+}
+
+
+
+
+
+
+.vmi_content{
+	width: 100%;
+	float: left;
+	padding: 0px;
+	height: auto;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	text-align: left;
+}
+
+
+.vmi_content_title{
+	background-image: url(../images/vmi_title.gif);
+	background-repeat: no-repeat;
+	background-position: 1px center;
+	margin: 0px;
+	float: left;
+	width: 98%;
+	height: 24px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 24px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 2%;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: dashed;
+	border-left-style: none;
+	border-top-color: #A8B6BF;
+	border-right-color: #A8B6BF;
+	border-bottom-color: #A8B6BF;
+	border-left-color: #A8B6BF;
+	font-size: 12px;
+	color: #FF6D05;
+}
+
+.vmi_content_title_a{
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 59%;
+	color: #146799;
+}
+.vmi_title_a{
+	color: #51B400;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+.vmi_title_a a{
+	color: #51B400;
+	text-decoration: none;
+}
+.vmi_title_a a:hover{
+	color: #FF6D05;
+	text-decoration: underline;
+}
+.vmi_content_title_b{
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	width: 40%;
+	text-align: right;
+}
+
+
+
+
+.vmi_content_img{
+	background-image: url(../images/vmi_content_img.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+	height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#vmi_footer{
+	float: left;
+	height: 25px;
+	width: 948px;
+	background-color: #E9EEF6;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 25px;
+	text-align: center;
+	border: 1px solid #DAD7CB;
+	padding: 0px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}

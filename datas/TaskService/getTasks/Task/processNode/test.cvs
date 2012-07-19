@@ -1,0 +1,3 @@
+parent,next,nodeName,nodeDesc,autoFlag,nodeStatus
+,,receipt,收货,false,已收货
+
