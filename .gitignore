@@ -1,0 +1,10 @@
+#Linux
+*~
+
+#Netbeans
+/*/build/
+/*/dist/
+/*/nbproject/private/
+
+#Eclipse
+
