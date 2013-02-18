@@ -24,7 +24,7 @@ public class TaskTest {
         // code that will be invoked before this test starts
     }
 
-    @Test
+//    @Test
     public void aTest() {
         InitiationTaskInfo.init();
 //        Asn asn = OperatFactory.getServiceObject(ReceiptModules.class).queryAsn("123456");
