@@ -21,7 +21,7 @@ public class StoryServiceTest {
 
     @BeforeClass
     public void setUp() {
-        MotionModel.setModel(Model.PRD);
+        MotionModel.setModel(Model.TEST);
         // code that will be invoked before this test starts
     }
 
