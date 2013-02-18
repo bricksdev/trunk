@@ -1,7 +1,5 @@
 language: java
 script: ant -f ./Service/build.xml
-notifications: 
-  irc: 
-    channels:
-      - "irc.freenode.org#bricksdev"
+notifications:
+  irc: "irc.freenode.org#travis"
 	
