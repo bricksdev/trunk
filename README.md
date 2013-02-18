@@ -50,5 +50,6 @@ build
 添加IRC及TravisCI支持
 
 1.IRC的讨论频道为#bricksdev ,项目push和构建测试结果会在频道中显示。
+
 2.已经完成TravisCI的配置，git push后会编译并测试Service项目及依赖项目。构建失败时会给出邮件提示。
 
