@@ -2,4 +2,3 @@ language: java
 script: ant -f ./Service/build.xml
 notifications:
   irc: "irc.freenode.org#travis"
-	
