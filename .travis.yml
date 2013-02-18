@@ -4,6 +4,4 @@ notifications:
   irc: 
     channels:
       - "irc.freenode.org#bricksdev"
-      #	- "irc.freenode.org#other-channels"
-
 	
