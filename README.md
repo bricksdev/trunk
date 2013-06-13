@@ -53,4 +53,4 @@ build
 
 2.已经完成TravisCI的配置，git push后会编译并测试Service项目及依赖项目。构建失败时会给出邮件提示。
 
-* [![build status](https://secure.travis-ci.org/gitlabhq/gitlabhq.png)](https://travis-ci.org/gitlabhq/gitlabhq) on travis-ci.org (master branch)
+* [![build status](https://secure.travis-ci.org/bricksdev/trunk.png)](https://travis-ci.org/bricksdev/trunk) on travis-ci.org (master branch)
