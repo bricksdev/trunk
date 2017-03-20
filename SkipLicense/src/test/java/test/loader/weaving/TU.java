@@ -84,10 +84,9 @@ public class TU {
         return null;
     }
     
-    private void display() {
+    public void display() {
         
     }
-
     protected void display1() {
         Logger.getLogger(this.getClass().getName()).warning("IP granted success.");
     }

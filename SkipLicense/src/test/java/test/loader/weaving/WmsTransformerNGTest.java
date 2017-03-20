@@ -78,7 +78,7 @@ public class WmsTransformerNGTest {
         byte[] expResult = null;
         byte[] result = instance.transform(loader, className, classBeingRedefined, null, classfileBuffer);
         Class r = loader.getInstance(className.replace("/", "."), result);
-        File file = new File("target/t/TU.class");
+        File file = new File("target/com/apusic/server/J2EEServer.class");
         if (file != null) {
             file.delete();
         }
@@ -90,7 +90,7 @@ public class WmsTransformerNGTest {
         outputstream.write(result);
         outputstream.flush();
         outputstream.close();
-        r.getMethod("display").invoke(r.newInstance());
+        r.getMethod("displayVersion").invoke(r.newInstance());
     }
     @Test
     public void writebyte(){
